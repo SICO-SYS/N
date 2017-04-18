@@ -1,0 +1,66 @@
+{
+  "version": "0.0",
+  "mysql": {
+    "default": {
+      "host": "127.0.0.1",
+      "port": "3306",
+      "user": "root",
+      "pass": "xxZ8SyeS3ryyoN",
+      "name": "default"
+    },
+    "user": {
+      "host": "127.0.0.1",
+      "port": "3306",
+      "user": "root",
+      "pass": "xxZ8SyeS3ryyoN",
+      "name": "user"
+    }
+  },
+  "mongo": {
+    "default": {
+      "host": "127.0.0.1",
+      "port": "27017",
+      "user": "root",
+      "pass": "xxZ8SyeS3ryyoN",
+      "name": "default"
+    },
+    "geo": {
+      "host": "127.0.0.1",
+      "port": "27017",
+      "user": "root",
+      "pass": "xxZ8SyeS3ryyoN",
+      "name": "geo"
+    }
+  },
+  "redis": {
+    "default": {
+      "host": "127.0.0.1",
+      "port": "6379",
+      "pass": "password"
+    }
+  },
+  "rabbit": {
+    "default": {
+      "user": "guest",
+      "pass": "guest",
+      "host": "127.0.0.1",
+      "port": "5671"
+    },
+    "AAA": {
+      "user": "guest",
+      "pass": "guest",
+      "host": "127.0.0.1",
+      "port": "5671"
+    }
+  },
+  "OpenAccess": {
+    "TokenValid": true,
+    "TokenExpired": 15
+  },
+  "log": {
+    "logpath" : "./log/",
+    "warning": "warning.log",
+    "error": "error.log",
+    "fatal": "fatal.log"    
+  }
+}

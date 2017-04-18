@@ -22,3 +22,8 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+#log
+log/*.log
+config.json
+N
